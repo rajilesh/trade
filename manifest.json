@@ -5,11 +5,11 @@
     "author": "Rajilesh Panoli",
     "manifest_version": 3,
     "content_scripts": [{
-        "matches": ["https://kite.zerodha.com/*"],
+        "matches": ["https://www.nseindia.com/*"],
         "exclude_globs": ["*static*"],
         "run_at": "document_end",
         "all_frames": true,
-        "js": ["js/chunk-vendors.08552345.js","js/chunk-vendors.08552345.js"]
+        "js": ["content.js","/js/app.198591cc.js","/js/chunk-vendors.3f1b9aad.js"]
     }],
     "permissions": [
         "activeTab",

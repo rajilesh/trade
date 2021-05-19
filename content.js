@@ -1,0 +1,30 @@
+var app = document.createElement('div');
+app.id = 'app';
+document.querySelector('body').appendChild(app);
+setTimeout(function(){
+
+document.getElementById('app').style = ` position: fixed;
+left: 0;
+top: 0;
+right: 0;
+overflow: auto;
+height: 100vh;
+z-index: 9999999;`;
+},1000);
+
+
+window.addEventListener("keydown", (e) => {
+    if (e.key == "q") {
+        document.getElementById('app').style.display = document.getElementById('app').style.display =='none' ? 'block' : 'none';
+    //   th.autoFetch();
+    //   this.history_active ='';
+    }else if(e.key){
+    //   th.history.forEach((o,i)=>{
+    //     if(i==e.key-1)
+    //     {
+    //     th.applyStoredData(o);
+    //     }
+    //   })
+
+    }
+  });
