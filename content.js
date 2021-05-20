@@ -9,8 +9,7 @@ top: 0;
 right: 0;
 overflow: auto;
 height: 100vh;
-z-index: 9999999;
-display:none;`;
+z-index: 9999999;`;
 },1000);
 
 
