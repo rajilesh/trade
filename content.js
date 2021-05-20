@@ -15,13 +15,11 @@ z-index: 9999999;`;
 
 window.addEventListener("keydown", (e) => {
     if (e.key == "q") {
-      document.getElementById('app').style.background = 'none';
         document.getElementById('app').style.display = document.getElementById('app').style.display =='none' ? 'block' : 'none';
     //   th.autoFetch();
     //   this.history_active ='';
     }else if (e.key == "w") {
-      document.getElementById('app').style.background = '#fff';
-      document.getElementById('app').style.display = document.getElementById('app').style.display =='none' ? 'block' : 'none';
+      document.getElementById('app').style.background = document.getElementById('app').style.background =='none' ? '#fff' : 'none';
   //   th.autoFetch();
   //   this.history_active ='';
   }else if(e.key){
