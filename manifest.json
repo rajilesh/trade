@@ -9,7 +9,7 @@
         "exclude_globs": ["*static*"],
         "run_at": "document_end",
         "all_frames": true,
-        "js": ["content.js","/js/app.198591cc.js","/js/chunk-vendors.3f1b9aad.js"]
+        "js": ["content.js","/js/app.426adeb2.js","/js/chunk-vendors.3f1b9aad.js"]
     }],
     "permissions": [
         "activeTab",
