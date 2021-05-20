@@ -19,6 +19,7 @@ window.addEventListener("keydown", (e) => {
     //   th.autoFetch();
     //   this.history_active ='';
     }else if (e.key == "w") {
+      document.getElementById('app').style.display = document.getElementById('app').style.display =='none' ? 'block' : 'block';
       document.getElementById('app').style.background = document.getElementById('app').style.background =='none' ? '#fff' : 'none';
   //   th.autoFetch();
   //   this.history_active ='';
