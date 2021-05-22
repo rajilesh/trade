@@ -1,0 +1,64 @@
+ul.saved_data {
+    display: flex;
+}
+ul.saved_data li{
+    margin: 10px 20px;
+    background: #e2bebb;
+    padding: 10px 7px;
+    box-shadow: inset 2px 2px 2px 0px rgb(19 19 19 / 50%);
+}
+ul.saved_data li span,
+ul.saved_data li.active span{
+    text-shadow:none;
+    display:inline-block;
+    width:0px;
+    overflow:hidden;
+    transition:all ease-in-out 0.3s;
+    position:relative;
+    top:5px;
+    
+}
+ul.saved_data li:hover span{
+    display:inline-block;ock;
+    width:50px;
+    overflow:hidden;
+}
+
+ul.saved_data li.active{
+    background: #12b112;
+    color: #fff !important;
+    box-shadow: inset 2px 2px 2px 0px rgb(19 19 19 / 50%);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+}
+.rajileh_panoli_interval{
+}
+.rajileh_panoli_hidden{
+    /* display: none; */
+}
+.rajileh_panoli_save{
+
+}
+
+
+.links_only{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.links_only li {
+}
+.links_only li a{
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Arial;
+    transition: all ease-in-out 0.3s;
+
+}
+.links_only li a:hover{
+    color: #333;
+
+}

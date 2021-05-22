@@ -9,8 +9,12 @@
         "exclude_globs": ["*static*"],
         "run_at": "document_end",
         "all_frames": true,
-        "js": ["content.js","/js/app.60ec0a5e.js","/js/chunk-vendors.3f1b9aad.js"]
+        "js": ["content.js","/js/app.79d02b5e.js","/js/chunk-vendors.d5ee5fde.js"],
+        "css":["styles.css"]
     }],
+    "action": {
+      "default_popup": "popup.html"
+    },
     "permissions": [
         "activeTab",
         "storage"
